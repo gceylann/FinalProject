@@ -11,7 +11,7 @@ namespace Core.Utilities.Results
 
         }
 
-        public SuccessDataResult(T data):base(data,true)
+        public SuccessDataResult(T data) :base(data,true)
         {
 
         }
@@ -21,9 +21,10 @@ namespace Core.Utilities.Results
 
         }
 
-        public SuccessDataResult():base(default,true)
+        public SuccessDataResult() : base(default, true)
         {
 
         }
+
     }
 }
